@@ -37,7 +37,7 @@ function page_header(string $title, string $active = '', bool $refreshMeta = fal
 <div class="app-shell">
   <aside class="sidebar offcanvas-lg offcanvas-start" tabindex="-1" id="sidebar">
     <div class="sidebar-brand">
-      <i class="bi bi-cup-hot-fill"></i>
+      <img src="<?= url('assets/img/logo.png') ?>" alt="<?= e($cafe) ?> logo" class="brand-logo">
       <div><div class="brand-name"><?= e($cafe) ?></div><div class="brand-sub">Management System</div></div>
       <button type="button" class="btn-close btn-close-white d-lg-none ms-auto" data-bs-dismiss="offcanvas" data-bs-target="#sidebar" aria-label="Close"></button>
     </div>

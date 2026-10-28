@@ -45,7 +45,7 @@ $cafe = setting('cafe_name', 'CarLouise Cafe');
 <body>
 <div class="login-wrap p-3">
   <div class="login-card">
-    <div class="text-center text-white mb-4"><i class="bi bi-cup-hot-fill fs-1" style="color:var(--crema)"></i>
+    <div class="text-center text-white mb-4"><img src="<?= url('assets/img/logo.png') ?>" alt="<?= e($cafe) ?> logo" class="login-logo">
       <h1 class="h3 mt-1 mb-0"><?= e($cafe) ?></h1><div class="small opacity-75">Sales, orders and inventory</div></div>
     <div class="card"><div class="card-body p-4">
       <?php if ($error): ?><div class="alert alert-danger py-2"><?= e($error) ?></div><?php endif; ?>
